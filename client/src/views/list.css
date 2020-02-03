@@ -1,0 +1,19 @@
+.deletebutton{
+  margin-left: -280px;
+  border-radius: 5px;
+  border-color: #bd0303 !important;
+  background-color: #bd0303 !important ;
+  width: 30px;
+  height: 30px;
+
+}
+
+.btn-edit{
+  margin-left: -140px;
+  border-radius: 5px;
+  border-color: #01462b !important;
+  background-color: #01462b !important ;
+  color: aliceblue !important ;
+
+}
+

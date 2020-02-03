@@ -1,0 +1,35 @@
+{
+  "name": "bck",
+  "version": "1.0.0",
+  "description": "back",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": " nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "font-awesome": "^4.7.0",
+    "hooks": "^0.3.2",
+    "jsonwebtoken": "^8.5.1",
+    "mdbreact": "^4.24.0",
+    "mobiscroll": "^3.0.0-beta6",
+    "mongoose": "^5.8.7",
+    "node-sass": "^4.13.1",
+    "passport": "^0.4.1",
+    "react-fontawesome": "^1.7.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  },
+  "repository": "https://github.com/Achref77/NewDASHTOCK.git"
+}
